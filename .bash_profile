@@ -1,10 +1,15 @@
 export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
+export M2_HOME=/Users/maximo/apache-maven-3.3.9
 
 alias ls='ls -GFh'
 alias ll='ls -la'
-alias repo='cd ~/Documents/repositories'
+alias repo='cd ~/repositories'
+alias audi='cd ~/repositories/audi-vmrs'
+alias server='cd ~/server'
+alias sd='cd /Volumes/Macbook\ Air\ SD/'
+alias composer="php /usr/local/bin/composer.phar"
 
 # After install git aware prompt
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
