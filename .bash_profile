@@ -10,6 +10,7 @@ alias audi='cd ~/repositories/audi-vmrs'
 alias server='cd ~/server'
 alias sd='cd /Volumes/Macbook\ Air\ SD/'
 alias composer="php /usr/local/bin/composer.phar"
+alias docker-stop='docker stop $(docker ps -a -q)'
 
 # After install git aware prompt
 export GITAWAREPROMPT=~/.bash/git-aware-prompt
